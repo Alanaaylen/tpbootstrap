@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comprar-tickets {
+    color: #27a844;
+}
+
+.portada {
+    background-image: url(recursos/ba1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.portada .container-flex {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.portada .contenido {
+    width: 50%;
+    margin-bottom: 20vh;
+    text-align: right;
+    color: #ffffff;
+    font-family: 'Arial Normal', 'Arial', sans-serif;
+}
+
+.portada .areabotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.portada .btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+
+}
+
+.oradores .titulo {
+    text-align: center;
+}
+
+.titulo h6 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.oradores .contenedor-oradores {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.oradores .card {
+    width: 30%;
+    min-width: 300px;
+}
+
+.oradores .card img {
+    width: 100%;
+}
+
+.oradores .card :not(img) {
+    padding: 0 1rem;
+}
+
+.card .skills{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.card .skills h6{
+    font-size: 0.8 rem;
+    font-weight: 700;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+
+.card h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.3rem;
+}
+
+.card p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.card .skills .js{
+    background-color:#feb900;
+    border-radius: 5px;
+}
+
+.card .skills .react{
+    background-color: #0096af;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.card .skills .negocios{
+    background-color: gray;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.card .skills .startups{
+    background-color: #db3241;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.contenedor-call{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.contenedor-call img{
+    width: 50vw;
+    margin: 0;
+}
+
+.contenedor-call .call-contenedor{
+    background-color: #31373d;
+    color: white;
+    padding: 1rem;
+}
+
+.contenedor-call .call-contenedor h2{
+    font-weight: 600;
+}
+
+.contenedor-call .btn{
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
+
+.form .titulo {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form .titulo h3{
+    font-size: 1rem;
+}
+
+.form .titulo .underline{
+    text-decoration: underline dotted gray;
+}
+
+.form .contenedor-form{
+    width: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .contenedor-form .first-last-name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.form .contenedor-form .input-name{
+    width: 48%;
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form .contenedor-form .input-about{
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form .contenedor-form .btn-submit{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+    font-size: 1.5rem;
+    background-color: rgba(10, 131, 36, 0.8);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer{
+    background-image: linear-gradient(to right, #004d7a, #008793);
+}
+
+.footer .contenedor-footer{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .contenedor-footer a{
+    text-decoration: none;
+    color: white;
+    padding: 3rem 0;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
